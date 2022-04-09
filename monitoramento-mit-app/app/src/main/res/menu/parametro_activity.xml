@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuItemRms"
+        android:checkable="true"
+        android:title="RMS" />
+    <item
+        android:id="@+id/menuItemDht"
+        android:checkable="true"
+        android:title="DHT" />
+    <item
+        android:id="@+id/menuItemHistorico"
+        android:title="Histórico" />
+    <item
+        android:id="@+id/menuItemLogout"
+        android:title="Logout" />
+    <item
+        android:id="@+id/menuItemUsuario"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="Usuário"
+        app:showAsAction="always" />
+</menu>

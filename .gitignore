@@ -1,0 +1,40 @@
+/monitoramento-mit-api/node_modules
+.DS_Store
+/monitoramento-mit-api/src/static/png/
+
+#built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+/monitoramento-mit-app/bin/
+/monitoramento-mit-app/gen/
+
+# Local configuration file (sdk path, etc)
+/monitoramento-mit-app/local.properties
+
+# Windows thumbnail db
+/monitoramento-mit-app/Thumbs.db
+
+# OSX files
+.DS_Store
+
+# Android Studio
+*.iml
+*.idea
+#.idea/workspace.xml - remove # and delete .idea if it better suit your needs.
+.gradle
+/monitoramento-mit-app/build/
+/monitoramento-mit-app/.navigation
+/monitoramento-mit-app/captures/
+/monitoramento-mit-app/output.json
+
+#NDK
+/monitoramento-mit-app/obj/
+/monitoramento-mit-app/.externalNativeBuild
